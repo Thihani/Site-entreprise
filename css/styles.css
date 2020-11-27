@@ -1,0 +1,191 @@
+
+/*-----------------------------------------------------------------------------------------------*/
+/*Début Tristan*/
+/*-----------------------------------------------------------------------------------------------*/
+
+
+@media all and (min-width: 768px) {
+            header nav .nav{
+                display: flex;
+            }
+            #burger-icone{
+                display: none !important;
+            }
+
+            header{
+                background-color: #ffffff !important;
+            }
+            header .container .burger-menu{display: none !important;}
+
+            .margin-img{
+                margin-left: 8%;
+            }
+            .resize-product{
+                padding-top: 30% !important;
+                margin-top: 10% !important;
+            }
+            body .cooking-title{flex-wrap: nowrap;}
+            .container .left-wing{order: initial;}
+            .container .right-wing{order: initial;}
+            .container .cooking-title h1{order:initial;}
+            .container .media-justify-around{justify-content: space-around !important;}
+
+
+        }
+
+
+        
+@media all and (min-width: 1500px) {
+
+            .resize-product{
+                padding-top: 0 !important;
+                margin-top: 5% !important;
+            }
+        
+
+        }
+
+        body{font-family: "Anaheim";
+            background-color: #FBF5F2;
+        }
+        /*-----------------------------------------------------------------------------------------------*/
+        /*Header*/
+        /*-----------------------------------------------------------------------------------------------*/
+
+        header{background-color:#FED274;}
+
+        #panier, #basket{
+            width: 25px; 
+            height: 25px;
+        }
+        .font-span{
+            font-size: 1.8rem;
+            padding-bottom: 10px;
+        }
+
+        .float-img{float: left;}
+
+        header .nav{
+            display: none;
+        }
+
+        #burger-icone{
+            width: 50px; 
+            height: 50px;
+            filter: invert(100%);
+        }
+        #icone{width: 100%;}
+
+        .margin-menu {
+            margin-top: 70px; 
+            text-align: center;
+        }
+        header .container .burger-menu{
+            font-size: 2rem;
+        }
+
+        /*-----------------------------------------------------------------------------------------------*/
+        /*TOP page Elements*/
+        /*-----------------------------------------------------------------------------------------------*/
+
+        .container .container img{width: 100%;}
+        .container .cake-recette-img{margin-top: 5%;}
+        .container-left {background-color: #ffffff; padding: 20px;}
+        .border{width: 100%; height: 3px; background-color: black; margin-bottom: 6%;}
+        .clock{font-size: 2rem; margin-top: 5%;}
+        footer{margin-top: 30px;}
+        .margin-top-board{margin-top: 10%;}
+
+        .resize-product{
+            background-image: url('../images/SAVE_20201103_110612.jpg');
+            height: 400px; 
+            background-position: center;
+            margin-top: 10%;
+            padding-top: 85%;
+        }
+
+        .cooking-title {background-color: #ffffff; margin-top: 2%; font-family: 'Syne Tactile', cursive; padding: 2% 0;}
+        .cooking-title h1{font-size: 4rem; text-transform: uppercase; order: 3;}
+        .wings-img {width: 35%;}
+        .left-wing{order: 1;}
+        .right-wing{order: 2;}
+        .cooking-title{flex-wrap: wrap;}
+
+        .vid-resize{width: 1000px; height: 600px; margin-top: 3%;}
+        .vid-resize iframe{width: 100%;height: 100%;}
+        .sub-title{text-align: center; margin-top: 3%; }
+        .sub-title h1 {  padding-top: 2%;}
+
+
+
+        .card-img-top{width: 100%; height: 200px; background-position: center; background-size: 100%;}
+
+        .img-1{background-image: url('../images/SAVE_20201103_110612.jpg'); }
+        .img-2{background-image: url('../images/skeleton.jpg'); }
+        .img-3{background-image: url('../images/photo-1568331704166-6214f152d98c.jpg'); }
+        .img-4{background-image: url('../images/SAVE_20201103_105926.jpg'); }
+        .img-5{background-image: url('../images/SAVE_20201103_110356.jpg'); }
+        .img-6{background-image: url('../images/photo-1561551602-0cdfdf7b1491.jpg'); }
+        .img-7{background-image: url('../images/candies4.PNG'); }
+        .img-8{background-image: url('../images/candies1.PNG'); }
+        .img-9{background-image: url('../images/candies2.PNG'); }
+        .img-10{background-image: url('../images/SAVE_20201103_110453.jpg'); }
+        .img-11{background-image: url('../images/makeup.PNG'); }
+        .img-12{background-image: url('../images/candies3.PNG'); }
+
+
+
+        .box_shadow{
+            max-width: 100%;
+            box-shadow: 0 0 20px grey  /*#A4A4A4*/;
+        }
+
+        #top_img{
+            width: 80%;
+            height: 550px;
+            margin-left: 10%;
+            margin-top: 100px;
+            background-image: url("../images/pumpkin(1).PNG"); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center ;
+        }
+
+        #bottom_bgimg{
+            margin-top: 80px;
+            font-size: 30px;
+            padding:3%;
+            width: 80%;
+            margin-left: 10%;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .carousel{
+            background: #2f4357;
+            margin-top: 20px;
+        }
+        .carousel-item{
+            text-align: center;
+            min-height: 280px; 
+        }
+        .carousel-item img {
+            width: 100%;
+        }
+        .resize-car{
+            width: 80%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        .card{
+            margin-top: 3%;
+        }
+        .declage-btn{
+            margin-left: 22%;
+        }
+
+ 
+/*-----------------------------------------------------------------------------------------------*/
+/*FIN TRISTAN*/
+/*-----------------------------------------------------------------------------------------------*/

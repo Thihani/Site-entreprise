@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pumpking, les rois de la fête</title>
+        <link href="https://fonts.googleapis.com/css?family=Anaheim:400,700,200" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css" >
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- navbar -->
+        <header>
+            <nav class="navbar fixed-top navbar-transparent bg-warning" style="background-color: #FFFFF0;">
+
+            <div class="container">
+                <div class="row">
+                    <img src="images/pumpkin.png" width="45" height="45" class="float-img" alt="logo">
+                    <span class="font-span navbar-brand text-light">Pumpking</span>
+                </div>
+                <ul class="nav nav-pills justify-content-end ">
+                    <li class="disparait nav-item">
+                        <a class="btn btn-outline-light border-0 text-light" type="button" href="home_bootstrap.html">Home |</a>
+                    </li>
+                    <li class="disparait nav-item">
+                        <a class="btn btn-outline-light border-0 text-light" type="button" href="catalogue_bootstrap.html">Produits & Services |</a>
+                    </li>
+                    <li class="disparait nav-item">
+                        <a class="btn btn-outline-light border-0 text-light" type="button"  href="#">L'équipe |</a>
+                    </li>
+                    <li class="disparait nav-item">
+                        <a class="btn btn-outline-light border-0 text-light" type="button"  href="#">Mon compte |</a>
+                    </li>
+                    <li class="disparait nav-item basket">
+                        <a href="#" class="btn btn-outline-light border-0 text-light" type="button"><img id="panier" src="images/shopping-cart.png" alt="Mon panier"></a>
+                    </li>
+                </ul>
+                <div id="burger-icone"><img id="icone" alt="menu burger" src="images/menu.png"></div>
+            </div>
+            </nav>
+            <div class="margin-menu container">
+                <div class="burger-menu d-flex justify-content-center">
+                    <ul>
+                        <li class="row"><a class="text-light" href="# ">Home |</a></li>
+                        <li class="row"><a class="text-light" href="#">Produits & Services |</a></li>
+                        <li class="row"><a class="text-light" href="#">L'équipe |</a></li>
+                        <li class="row"><a class="text-light" href="#">Mon compte |</a></li>
+                        <li class="row"><a class="text-light" href="#">Mon panier |</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--top head bacground-->
+        <div class="container-lg resize-car">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pumpkin(1).png" alt="First Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pimpkin(2).jpg" alt="Second Slide">
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <!--Produits-->
+
+        <div class="container d-flex justify-content-around flex-wrap">
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-1"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Un monstrueux gâteau</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="product_bootstrap.html" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-2"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Skeleton en Chocolat</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-3"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Des bonbons ... citrouillesque</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-4"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Vegan Skeleton</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-5"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Monster-Fraise</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-6"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Vol de balai ... picpocket</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-7"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">CooKitch</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-8"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Bis-Cuite</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-9"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Maca-Ron Wesley</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-10"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Ar-Acné</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-11"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Maqui-naze</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top img-12"></div>
+                <div class=" card-body bg-warning text-light ">
+                    <h5 class="card-title text-center">Fourre Nez</h5>
+                    <p class="card-text text-center">Une recette qui va vous laisser des traces indélébile dans votre mémoire ... et partout ailleurs</p>
+                    <a href="#" class="btn btn-outline-light border-1 text-light declage-btn">Voir la Recette</a>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer>
+            <nav class="navbar bg-warning" style="background-color: #FFFFF0;">
+                <div class="container justify-content-center d-flex flex-wrap">
+                    <div class="row ">
+                        <ul class="nav nav-pills justify-content-center ">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light border-0 text-light" type="button" href="#">Mentions Légales |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light border-0 text-light" type="button" href="#">Plan du site |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light border-0 text-light" type="button"  href="#">Conditions générales de vente |</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-light border-0 text-light" type="button"  href="#">Nous contacter |</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="margin-img row justify-content-center ">
+                        <img src="images/pumpkin.png" width="45" height="45" class="" alt="logo">
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
